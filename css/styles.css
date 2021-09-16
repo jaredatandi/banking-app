@@ -1,0 +1,72 @@
+body {
+  /* font-family: EksellDisplay F37Ginger; */
+}
+ul {
+  padding-top: 2.5rem;
+}
+li {
+  list-style-type: none;
+  color: white;
+  font-size: 1em;
+  padding-right: 10px;
+}
+.balance {
+  height: 15vh;
+  background-color: #1fd19c;
+  box-shadow: 2px 2px 5px 2px #999999;
+  border-radius: 10px;
+  z-index: 1;
+  margin: 1rem 22rem 0rem 10rem;
+  padding: 10px;
+}
+.dashboard-title {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 25px;
+}
+.user-icon {
+  background-color: red;
+  height: 5vh;
+  padding: 0.2em;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.user-icon p {
+  text-align: center;
+}
+.container {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  border-radius: 15px;
+}
+.navigation {
+  background-color: #0f0b3d;
+  height: 100vh;
+  width: 10%;
+  border: 2px solid green;
+  border-radius: 15px 0px 15px 0px;
+}
+.mainWindow {
+  display: flex;
+  height: 30vh;
+  width: 90%;
+
+  border-radius: 0px 15px 0px 15px;
+  justify-content: space-between;
+  align-content: center;
+}
+.fas {
+  height: 3rem;
+  padding: 10px;
+  color: white;
+}
+
+.fa-bars {
+  padding-top: 2rem;
+  padding-left: 0.9rem;
+}
+.Dashboard {
+  margin-left: 5px;
+}
