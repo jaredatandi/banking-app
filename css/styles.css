@@ -49,4 +49,10 @@ li {
   background-color: #34c297;
   margin-top: 10px;
   text-align: center;
+  box-shadow: 2px 2px 5px 5px #999;
+}
+.profile {
+  background-color: red;
+  padding: 3px;
+  border-radius: 15px;
 }
