@@ -17,6 +17,11 @@ li {
   border: 2px solid green;
   border-radius: 15px 0px 15px 0px;
 }
+@media only screen and (max-width: 750px) {
+  .navigation {
+    display: none;
+  }
+}
 
 .fas {
   height: 3rem;
@@ -41,11 +46,14 @@ li {
   font-size: 1.5rem;
   font-weight: 700;
 }
+.user-name {
+  color: #ed3e5e;
+}
 .dashboard-subscript {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
 }
-.card {
+.balance {
   background-color: #34c297;
   margin-top: 10px;
   text-align: center;
@@ -53,6 +61,30 @@ li {
 }
 .profile {
   background-color: red;
-  padding: 3px;
+  padding: 3px 5px 0px 5px;
   border-radius: 15px;
+}
+.current-balance {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: 20px;
+  height: 25vh;
+}
+.currency {
+  border: 2px solid #0887;
+}
+.currencies {
+  background-color: #fffcfd;
+  border-radius: 8px;
+  box-shadow: 0.3px 1px 1px 1px;
+  z-index: 1;
+}
+.currencies h1 {
+  padding-top: 50px;
+  font-size: 2rem;
+}
+.transactions {
+  border: 3px solid blue;
+  height: 40vh;
 }
