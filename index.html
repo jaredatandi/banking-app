@@ -16,6 +16,12 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -37,9 +43,9 @@
     <title>Banking App</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container main">
       <div class="row">
-        <div class="navigation">
+        <div class="navigation col-md-2">
           <i class="fas fa-bars"></i>
           <ul>
             <li><i class="fas fa-user"></i>Account</li>
@@ -51,20 +57,29 @@
             <li><i class="fas fa-wallet"></i>Contact US</li>
           </ul>
         </div>
-        <div class="mainWindow">
-          <div class="Dashboard row">
-            <div class="dashboard-description">
+        <div class="main-window container col-md-10">
+          <div class="dashboard-items row">
+            <div class="dashboard-main-title">
               <h1 class="dashboard-title">Banking Dashboard</h1>
-              <p>Welcome back, <span>User</span></p>
+              <p class="dashboard-subscript">
+                Welcome back, <span class="user-name">User</span>
+              </p>
             </div>
-            <div class="card balance">
-              <p>current balance</p>
-              <h1>142444.89</h1>
+            <div class="dashboard-balance">
+              <div class="card">
+                <p>current balance</p>
+                <h1>142444.89</h1>
+              </div>
             </div>
-            <div class="card user-icon">
-              <p>user</p>
+            <div class="user-icon">
+              <div class="profile">
+                <p>user</p>
+              </div>
             </div>
           </div>
+          <div class="current-balance">balance</div>
+          <div class="transactions">transactions</div>
+
           <!-- <div class="balances">
             <div class="currencies row">
               <div class=""></div>
