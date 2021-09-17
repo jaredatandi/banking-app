@@ -30,7 +30,7 @@ This project is a webapp page that was inspired by [Masud Rahman](https://dribbb
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Bootstrap](https://getbootstrap.com/)
 
--[Javascript(JQuery)](https://jquery.com/)
+- [Javascript(JQuery)](https://jquery.com/)
 
 # Bugs
 
